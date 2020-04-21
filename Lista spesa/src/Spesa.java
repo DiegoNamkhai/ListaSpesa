@@ -13,7 +13,7 @@ public class Spesa {
 		// mi spiace ma non sono stato abbastanza sveglio da riuscir a capire
 		//subito la soluzione migliore
 		//In nuoto ho usato quello piú corretto e funzionale.
-		String [] v = new String[spesa.getElement()];
+		String [] v = new String[0];
 		v = spesa.allInfo(v);
 		if(spesa.allInfo(v)==null) {
 			spesa.insertFromHead(obj);

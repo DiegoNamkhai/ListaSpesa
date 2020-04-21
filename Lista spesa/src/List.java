@@ -1,5 +1,5 @@
-//import java.lang.reflect.Array;
-//import java.util.Vector;
+import java.util.Arrays;
+
 
 public class List<change>{
 	
@@ -198,9 +198,11 @@ public class List<change>{
 			//Vector<change> n = new Vector<change>(element);
 			// change[] v = (change[])new Object[element];
 			//change [] v = (change[])appt;
-			change [] d = null;
+			change d [] = null;Arrays.copyOf(v, element);
+			//@SuppressWarnings("unchecked")
+			//change d [] = (change[])appt;
 			if (v.length<element) {
-				System.arraycopy(v, 0, d, 0, v.length);
+				d = Arrays.copyOf(v, element);
 				
 			}
 			else {
@@ -223,6 +225,7 @@ public class List<change>{
 		}
 		
 	}
+	
 	
 	public Node<change>[] allNode() {
 		if (element != 0) {
