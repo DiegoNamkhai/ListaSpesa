@@ -52,7 +52,6 @@ public class List<change>{
 				
 			}
 			else if (index == 0){
-				System.out.println("fromHead");
 				this.insertFromHead(info);//check insertFromHead()
 				
 			}
