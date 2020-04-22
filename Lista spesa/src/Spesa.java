@@ -1,4 +1,3 @@
-//import java.util.Vector;
 
 public class Spesa {
 	
@@ -89,7 +88,9 @@ public class Spesa {
 	}
 	
 	public void print() {
+		System.out.println("Elementi totali " + spesa.getElement());
 		spesa.print();
+
 	}
 	
 

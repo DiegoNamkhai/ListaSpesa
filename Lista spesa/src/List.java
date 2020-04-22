@@ -121,7 +121,6 @@ public class List<change>{
 			else {
 				Node<change> app = head;
 				for (int i = 1; i<=index; i++) {
-					System.out.println(i);
 					app = app.getNext();
 				}
 				app.getPrev().setNext(app.getNext());//link prev to next
